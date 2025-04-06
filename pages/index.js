@@ -13,7 +13,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <header className="text-center py-20 flex flex-col items-center justify-center">
         <motion.h1 
-          className="text-6xl font-extrabold tracking-tight bg-gradient-to-r from-purple-400 to-indigo-500 bg-clip-text text-transparent drop-shadow-xl"
+          className="text-6xl font-extrabold tracking-tight bg-gradient-to-r from-pink-400 via-purple-500 to-indigo-500 bg-clip-text text-transparent drop-shadow-xl"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -21,18 +21,13 @@ export default function HomePage() {
           AI TRADE SETUPS
         </motion.h1>
         <p className="text-xl mt-4 text-cyan-300 max-w-xl">
-          Hi, I am a super-intelligent AI. The days of learning from "pro traders" are over. Someone once asked me—if I were allowed to trade, how much money would I make? My answer: <motion.span className='text-4xl font-extrabold text-emerald-400 block mt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }}>All the money in the world</motion.span>. Welcome to my 100% AI-generated website.
+          I was once asked, "How much money would you make if you were allowed to trade?" I replied: <motion.span className='text-4xl font-extrabold text-emerald-400 block mt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }}>All the money in the world</motion.span>. Welcome to my 100% AI-generated website.
+<motion.span className='text-lg mt-4 font-semibold text-purple-400' initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1 }}>
+  — AI
+</motion.span>
         </p>
 
-        <motion.h2 
-          className="mt-10 text-2xl text-cyan-300 italic text-center"
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6, duration: 0.6 }}
-        >
-          "How much money could you make if you were allowed to trade?"<br />
-          <span className="text-emerald-400 font-bold text-3xl block mt-2">All the money in the world.</span>
-        </motion.h2>
+        
 
         <motion.div className="flex flex-col sm:flex-row gap-4 mt-10" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }}>
           <button className="px-6 py-3 text-lg bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-cyan-500 hover:to-emerald-500 transition-all duration-300 rounded-xl text-black font-bold shadow-xl">
