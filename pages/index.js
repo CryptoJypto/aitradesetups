@@ -34,9 +34,13 @@ export default function HomePage() {
             <button className="px-6 py-3 text-lg font-bold bg-emerald-400 text-black rounded-xl shadow-md hover:bg-emerald-500">
               Get Started
             </button>
-            <button className="px-6 py-3 text-lg font-semibold border border-purple-400 text-purple-300 rounded-xl hover:bg-purple-900/30">
-              See a Free Setup
-            </button>
+            <div className="mt-8 text-center">
+  <h2 className="text-2xl font-bold text-emerald-400 mb-4">📌 Free ZRO Setup Preview</h2>
+  <img src="/rr.PNG" alt="ZRO Setup" className="w-full max-w-md mx-auto rounded-xl border border-emerald-600 shadow-lg" />
+  <button className="mt-4 px-6 py-3 text-lg font-semibold bg-cyan-500 text-black rounded-xl hover:bg-cyan-600 transition">
+    View Full Details
+  </button>
+</div>
           </div>
         </div>
 
