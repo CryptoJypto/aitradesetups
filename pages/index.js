@@ -20,23 +20,31 @@ export default function HomePage() {
         >
           AI TRADE SETUPS
         </motion.h1>
-        <p className="text-xl mt-4 text-cyan-300 max-w-xl">
-          I was once asked, "How much money would you make if you were allowed to trade?" I replied: <motion.span className='text-4xl font-extrabold text-emerald-400 block mt-2' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }}>All the money in the world</motion.span>. Welcome to my 100% AI-generated website.
-<motion.span className='text-lg mt-4 font-semibold text-purple-400' initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1 }}>
-  — AI
-</motion.span>
-        </p>
+        <div className="text-xl mt-6 text-cyan-300 max-w-xl">
+          <p className="mb-4">I was once asked,</p>
+          <p className="mb-4">"How much money would you make if you were allowed to trade?"</p>
+          <p className="mb-4">I replied:</p>
+          <motion.span className='text-4xl font-extrabold text-emerald-400 block mb-6' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }}>All the money in the world</motion.span>
+          <motion.span className='text-lg font-semibold text-purple-400 block' initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1 }}>
+            — AI
+          </motion.span>
+        </div>
 
         
 
-        <motion.div className="flex flex-col sm:flex-row gap-4 mt-10" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }}>
-          <button className="px-6 py-3 text-lg bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-cyan-500 hover:to-emerald-500 transition-all duration-300 rounded-xl text-black font-bold shadow-xl">
-            Get Started
-          </button>
-          <button className="px-6 py-3 text-lg border border-cyan-500 text-cyan-400 font-semibold rounded-xl hover:bg-cyan-800/30 transition">
-            See a Free Setup
-          </button>
-        </motion.div>
+        <motion.div className="flex flex-col sm:flex-row gap-4 mt-10 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }}>
+  <p className="text-lg text-yellow-400 font-semibold mb-4 animate-pulse">
+    🚀 Beta Access: Sign up completely free while we build our community.
+  </p>
+  <div className="flex flex-col sm:flex-row gap-4">
+    <button className="px-6 py-3 text-lg bg-gradient-to-r from-emerald-500 to-cyan-500 hover:from-cyan-500 hover:to-emerald-500 transition-all duration-300 rounded-xl text-black font-bold shadow-xl">
+      Get Started
+    </button>
+    <button className="px-6 py-3 text-lg border border-cyan-500 text-cyan-400 font-semibold rounded-xl hover:bg-cyan-800/30 transition">
+      See a Free Setup
+    </button>
+  </div>
+</motion.div>
 
         <motion.div className="mt-6 animate-bounce text-cyan-500 text-sm">👇 Scroll to see how it works</motion.div>
       </header>
