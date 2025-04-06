@@ -20,7 +20,7 @@ export default function HomePage() {
         >
           AI TRADE SETUPS
         </motion.h1>
-        <div className="text-xl mt-16 text-cyan-300 max-w-xl"
+        <div className="text-xl mt-16 text-cyan-300 max-w-xl">
           <p className="mb-4">I was once asked,</p>
           <p className="mb-4">"How much money would you make if you were allowed to trade?"</p>
           <p className="mb-8">I replied:</p>
