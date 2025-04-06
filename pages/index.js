@@ -13,7 +13,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="flex flex-col-reverse lg:flex-row justify-between items-center gap-12 py-20 max-w-7xl mx-auto">
         <div className="max-w-xl">
-          <motion.h1 className="text-5xl font-extrabold leading-tight text-left text-emerald-300" initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
+          <motion.h1 className="text-5xl font-extrabold leading-tight text-center text-emerald-300" initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
             AI TRADE<br />SETUPS
           </motion.h1>
           <p className="mt-8 text-lg text-gray-300 leading-relaxed">
@@ -34,9 +34,9 @@ export default function HomePage() {
             <button className="px-6 py-3 text-lg font-bold bg-emerald-400 text-black rounded-xl shadow-md hover:bg-emerald-500">
               Get Started
             </button>
-            <div className="mt-8 text-center">
+            <div className="mt-8 lg:absolute lg:right-12 lg:top-80 text-center max-w-md">
   <h2 className="text-2xl font-bold text-emerald-400 mb-4">📌 Free ZRO Setup Preview</h2>
-  <img src="/rr.PNG" alt="ZRO Setup" className="w-full max-w-md mx-auto rounded-xl border border-emerald-600 shadow-lg" />
+  <img src="/rr.PNG" alt="ZRO Setup" className="w-full rounded-xl border border-emerald-600 shadow-lg" />
   <button className="mt-4 px-6 py-3 text-lg font-semibold bg-cyan-500 text-black rounded-xl hover:bg-cyan-600 transition">
     View Full Details
   </button>
