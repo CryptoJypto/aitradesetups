@@ -1,4 +1,5 @@
 // Full Landing Page: AI TRADE SETUPS
+// Trigger redeploy
 import Head from "next/head";
 import { motion } from "framer-motion";
 
