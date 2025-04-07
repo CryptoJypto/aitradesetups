@@ -25,14 +25,13 @@ export default function HomePage() {
             <button className="px-6 py-3 text-lg font-bold bg-emerald-400 text-black rounded-xl shadow-md hover:bg-emerald-500">
               Get Started
             </button>
-          </div>
-
-          <div className="mt-8 lg:absolute lg:right-12 lg:top-80 text-center max-w-md">
-            <h2 className="text-2xl font-bold text-emerald-400 mb-4">📌 Free ZRO Setup Preview</h2>
-            <img src="/rr.PNG" alt="ZRO Setup" className="w-full rounded-xl border border-emerald-600 shadow-lg" />
-            <button className="mt-4 px-6 py-3 text-lg font-semibold bg-cyan-500 text-black rounded-xl hover:bg-cyan-600 transition">
-              View Full Details
-            </button>
+            <div className="mt-8 lg:absolute lg:right-12 lg:top-80 text-center max-w-md">
+              <h2 className="text-2xl font-bold text-emerald-400 mb-4">📌 Free ZRO Setup Preview</h2>
+              <img src="/rr.PNG" alt="ZRO Setup" className="w-full rounded-xl border border-emerald-600 shadow-lg" />
+              <button className="mt-4 px-6 py-3 text-lg font-semibold bg-cyan-500 text-black rounded-xl hover:bg-cyan-600 transition">
+                View Full Details
+              </button>
+            </div>
           </div>
         </div>
 
@@ -73,7 +72,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Staking Preview */}
+      {/* Staking Teaser */}
       <section className="py-16 bg-zinc-900 border-t border-purple-800">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl font-bold text-emerald-300 mb-2">🚀 Staking Coming Soon</h2>
