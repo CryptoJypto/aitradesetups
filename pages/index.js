@@ -25,19 +25,22 @@ export default function HomePage() {
             <button className="px-6 py-3 text-lg font-bold bg-emerald-400 text-black rounded-xl shadow-md hover:bg-emerald-500">
               Get Started
             </button>
-            <div className="mt-8 lg:absolute lg:right-12 lg:top-80 text-center max-w-md">
-              <h2 className="text-2xl font-bold text-emerald-400 mb-4">📌 Free ZRO Setup Preview</h2>
-              <img src="/rr.PNG" alt="ZRO Setup" className="w-full rounded-xl border border-emerald-600 shadow-lg" />
-              <button className="mt-4 px-6 py-3 text-lg font-semibold bg-cyan-500 text-black rounded-xl hover:bg-cyan-600 transition">
-                View Full Details
-              </button>
-            </div>
           </div>
         </div>
 
         <div className="w-full lg:w-[45%] text-center">
-          <img src="/brain-trade-ai.png" alt="AI Chart" className="w-full max-w-sm mx-auto rounded-2xl shadow-lg border border-purple-700" />
+          <p className="text-sm text-gray-400 mb-4 italic">Welcome to ground ZERO. This is the beginning of a movement, so we thought it'd be appropriate to feature ZRO as our first trade setup.</p>
+          <img src="/zero.PNG" alt="AI Chart" className="w-full max-w-md mx-auto rounded-2xl shadow-lg border border-purple-700" />
         </div>
+      </section>
+
+      {/* ZRO Preview */}
+      <section className="max-w-6xl mx-auto text-center mb-16">
+        <h2 className="text-2xl font-bold text-emerald-300 mb-4">📌 Free ZRO Setup Preview</h2>
+        <img src="/rr.PNG" alt="ZRO Setup" className="w-full max-w-3xl mx-auto rounded-xl border border-emerald-600 shadow-lg" />
+        <button className="mt-4 px-6 py-3 text-lg font-semibold bg-cyan-500 text-black rounded-xl hover:bg-cyan-600 transition">
+          View Full Details
+        </button>
       </section>
 
       {/* Features */}
