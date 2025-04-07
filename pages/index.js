@@ -11,27 +11,23 @@ export default function HomePage() {
       </Head>
 
       {/* Hero Section */}
-      <section className="flex flex-col-reverse lg:flex-row justify-between items-center gap-12 py-20 max-w-7xl mx-auto">
-        <div className="max-w-xl">
-          <motion.h1 className="text-5xl font-extrabold leading-tight text-center text-emerald-300" initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
-            AI TRADE<br />SETUPS
-          </motion.h1>
-          <p className="mt-8 text-3xl font-bold text-purple-300 text-center">Trade Like an AI</p>
-          <p className="mt-4 text-lg text-gray-400 text-center">Precision setups. No emotions. Just logic.</p>
-
-          <p className="mt-8 text-yellow-300 font-medium animate-pulse">🚀 This is a community-powered platform for AI trading. Join early and help shape what's next.</p>
-
-          <div className="mt-6 flex flex-col sm:flex-row gap-4">
-            <button className="px-6 py-3 text-lg font-bold bg-emerald-400 text-black rounded-xl shadow-md hover:bg-emerald-500">
-              Get Started
-            </button>
-          </div>
+      <section className="flex flex-col justify-center items-center text-center gap-6 py-20 max-w-4xl mx-auto">
+        <motion.h1 className="text-5xl font-extrabold leading-tight text-emerald-300" initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
+          AI TRADE<br />SETUPS
+        </motion.h1>
+        <p className="text-3xl font-bold text-purple-300">Trade Like an AI</p>
+        <p className="text-lg text-gray-400">Precision setups. No emotions. Just logic.</p>
+        <p className="text-yellow-300 font-medium animate-pulse">🚀 This is a community-powered platform for AI trading. Join early and help shape what's next.</p>
+        <div className="mt-4">
+          <button className="px-6 py-3 text-lg font-bold bg-emerald-400 text-black rounded-xl shadow-md hover:bg-emerald-500">
+            Get Started
+          </button>
         </div>
+      </section>
 
-        <div className="w-full lg:w-[45%] text-center">
-          <p className="text-sm text-gray-400 mb-4 italic">Welcome to ground ZERO. This is the beginning of a movement, so we thought it'd be appropriate to feature ZRO as our first trade setup.</p>
-          <img src="/zero.PNG" alt="AI Chart" className="w-full max-w-md mx-auto rounded-2xl shadow-lg border border-purple-700" />
-        </div>
+      {/* ZRO Intro */}
+      <section className="text-center max-w-3xl mx-auto pb-12">
+        <p className="text-sm text-gray-400 italic mb-4">Welcome to ground ZERO. This is the beginning of a movement, so we thought it'd be appropriate to feature ZRO as our first trade setup.</p>
       </section>
 
       {/* ZRO Preview */}
