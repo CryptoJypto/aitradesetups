@@ -12,10 +12,15 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="flex flex-col justify-center items-center text-center gap-6 py-20 max-w-4xl mx-auto">
-        <motion.h1 className="text-5xl font-extrabold leading-tight text-emerald-300" initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }}>
-          AI TRADE<br />SETUPS
+        <motion.h1
+          className="text-6xl font-extrabold leading-tight text-pink-300 drop-shadow-lg"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          AI TRADE SETUPS
         </motion.h1>
-        <p className="text-3xl font-bold text-purple-300">Trade Like an AI</p>
+        <p className="text-3xl font-bold text-pink-400">Trade Like an AI</p>
         <p className="text-lg text-gray-400">Precision setups. No emotions. Just logic.</p>
         <p className="text-yellow-300 font-medium animate-pulse">🚀 This is a community-powered platform for AI trading. Join early and help shape what's next.</p>
         <div className="mt-4">
