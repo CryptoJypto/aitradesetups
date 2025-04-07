@@ -50,6 +50,18 @@ export default function HomePage() {
               <h3 className="text-lg font-semibold mb-2">🧬 Open Collaboration</h3>
               <p className="text-sm text-gray-400">We are building this together. Feedback, ideas, and contributions from the community shape every move.</p>
             </div>
+            <div className="bg-zinc-900 p-6 rounded-lg border border-purple-700">
+              <h3 className="text-lg font-semibold mb-2">📈 Daily Trade Setups</h3>
+              <p className="text-sm text-gray-400">Fresh long/short ideas posted every day with clear entry, stop, and target zones.</p>
+            </div>
+            <div className="bg-zinc-900 p-6 rounded-lg border border-purple-700">
+              <h3 className="text-lg font-semibold mb-2">🧠 AI-Powered Risk Logic</h3>
+              <p className="text-sm text-gray-400">Smart calculations determine setups with the highest probability and cleanest R:R ratios.</p>
+            </div>
+            <div className="bg-zinc-900 p-6 rounded-lg border border-purple-700">
+              <h3 className="text-lg font-semibold mb-2">🪙 Token Vision</h3>
+              <p className="text-sm text-gray-400">Our future utility token will unlock access, voting power, staking rewards, and deeper AI trading tools.</p>
+            </div>
           </div>
         </div>
       </section>
